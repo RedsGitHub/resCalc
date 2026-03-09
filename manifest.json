@@ -1,0 +1,13 @@
+{
+  "name": "Resources GPS MMO — Калькулятор",
+  "short_name": "Resources",
+  "description": "Калькулятор прибутку для Resources GPS MMO",
+  "start_url": "./resources-calculator.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f2f5",
+  "theme_color": "#1a73e8",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
