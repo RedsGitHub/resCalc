@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="90" fill="#1a73e8"/>
+  <rect x="40" y="40" width="432" height="432" rx="70" fill="#1557b0"/>
+  <!-- Pickaxe handle -->
+  <rect x="230" y="200" width="28" height="200" rx="10" fill="#fff" transform="rotate(45 256 256)"/>
+  <!-- Pickaxe head -->
+  <path d="M160 130 Q180 100 230 120 L256 180 L200 200 Z" fill="#fff"/>
+  <path d="M352 130 Q332 100 282 120 L256 180 L312 200 Z" fill="#e8f0fe"/>
+  <!-- Coin symbol -->
+  <circle cx="360" cy="360" r="68" fill="#f59e0b"/>
+  <circle cx="360" cy="360" r="56" fill="#fbbf24"/>
+  <text x="360" y="384" font-size="64" text-anchor="middle" font-family="serif" font-weight="bold" fill="#92400e">Ꞓ</text>
+</svg>
