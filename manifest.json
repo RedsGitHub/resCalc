@@ -1,13 +1,18 @@
 {
-  "name": "Resources GPS MMO — Калькулятор",
+  "name": "Resources GPS MMO",
   "short_name": "Resources",
-  "description": "Калькулятор прибутку для Resources GPS MMO",
-  "start_url": "./resources-calculator.html",
+  "description": "Factory profit & chain calculator for Resources GPS MMO",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#f0f2f5",
   "theme_color": "#1a73e8",
+  "start_url": "./resources-portable.html",
+  "scope": "./",
   "icons": [
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ]
 }
