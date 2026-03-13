@@ -21,14 +21,10 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  // Exchange prices — always try network first, fallback to cache
-  if (e.request.url.includes('kurseliste.xml')) {
-    e.respondWith(
-      fetch(e.request).catch(() => caches.match(e.request))
-    );
-    return;
-  }
-  // Everything else — cache first
+  // Only handle same-origin requests; let the browser handle cross-origin
+  // fetches natively so CORS proxy requests from the page are not intercepted.
+  if (!e.request.url.startsWith(self.location.origin)) return;
+  // Cache-first for same-origin assets
   e.respondWith(
     caches.match(e.request).then(r => r || fetch(e.request).then(res => {
       const clone = res.clone();
