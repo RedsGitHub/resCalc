@@ -1,4 +1,4 @@
-const CACHE = 'resources-calc-v1';
+const CACHE = 'resources-calc-v2';
 const FILES = [
   './resources-calculator.html',
   './manifest.json',
